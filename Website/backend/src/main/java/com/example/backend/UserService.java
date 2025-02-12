@@ -19,7 +19,7 @@ public class UserService {
         return repository.save(user);
     }
 
-		public User getUserByID(int id) {
+		public User getUserById(int id) {
 				return repository.findById(id);
 		}
 }

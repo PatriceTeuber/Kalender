@@ -12,8 +12,8 @@ public class User {
 
 		public User(){}
 		public User (String _name, String _email){
-			this.name = _name;
-			this.email = _email;
+			name = _name;
+			email = _email;
 		}
     // Getter & Setter
 		public String getName() {
